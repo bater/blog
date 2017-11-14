@@ -3,6 +3,7 @@ layout: post
 title:  "Circular dependency detected while autoloading constant"
 date:   2017-09-15 00:00:00 +1100
 categories: ruby bug-log
+comments: true
 ---
 In my case, my code likes like:
 
