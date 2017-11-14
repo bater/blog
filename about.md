@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Blog about web technology, mainly about ruby. Another [bolg](http://ithelp.ithome.com.tw/users/20103651/articles), but it's all in mandarin.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Every programer might agree that writing a blog is important and useful, but the issue is hard to keep going.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+For me, I tried to write in many different place with different framework, such as wordpress, blogger, pixnet and logdown. Current one is wrote by [jekyll](https://jekyllrb.com/) and host by github page. I wish it can be a longer one.
 
+Btw, it's my first english blog, so if you find any mistake in my blog, please kindly let me know.
 
-[jekyll-organization]: https://github.com/jekyll
+Here is my [resume](http://resume.bater.cf) and [linkedin](https://www.linkedin.com/in/baterchen/).
