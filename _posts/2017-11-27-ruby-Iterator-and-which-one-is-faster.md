@@ -15,7 +15,7 @@ until i > 10
   i += 1
 end
 # or
-while i < 0 do
+while i < 10 do
   puts i
   i += 1
 end
