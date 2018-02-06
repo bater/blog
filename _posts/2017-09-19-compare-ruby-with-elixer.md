@@ -8,7 +8,13 @@ comments: true
 Elixir is much similar to Ruby, so I try to list some difference between this two.
 
 ## **Atoms**, synonymous with Symbols
-Almost the same in Elixir but different name.
+Almost the same in Elixir but different name. In Elixir there are no such type call **Bollean**, so `true` and `false` are just Atoms.
+```ex
+iex> :true == true
+true
+iex> false == :false
+true
+```
 
 ## unique arithmetic method
 integer division `div`or the division remainder`rem` method.
