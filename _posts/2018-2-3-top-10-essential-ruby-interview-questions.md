@@ -41,6 +41,23 @@ In Ruby, methods may either be public, protected, or private.
 * Protected methods are only accessible within their defining class and its subclasses.
 * Private methods can only be accessed and viewed within their defining class.
 
+But you can use `:send` to call private method outside of class:
+```rb
+class MyClass
+  private
+  def some_class
+    p "foo"
+  end
+end
+```
+```
+> MyClass.new.some_class
+=> MethodNotFound Error
+> MyClass.new.send(:some_class)
+"foo"
+```
+Not really so private, hmm.
+
 ## What's difference between symbol and string?
 String is mutable but a Symbol is immutable. This means that using symbols can potentially save a good bit of memory depending on the application. It is also faster to compare symbols for equality since they are the same object, comparing identical strings is much slower since the string values need to be compared instead of just the object ids.
 
@@ -65,6 +82,58 @@ String is mutable but a Symbol is immutable. This means that using symbols can p
 ## What's difference between include and extend?
 * `extend` mixes in specified module methods as class methods in the target class.
 * `include` mixes in specified module methods as instance methods in the target class.
+
+Let's see some example code:
+
+```rb
+module Printable
+  def self.class_method_x
+    p 'class_method_x'
+  end
+
+  def instance_method_y
+    p 'instance_method_y'
+  end
+end
+```
+
+```rb
+class ExtendDocument
+  extend Printable
+end
+```
+
+```rb
+class IncludeDocument
+  include Printable
+end
+```
+
+Class method inside module never works:
+```
+ExtendDocument.class_method_x
+# => NoMethodError: undefined method `class_method_x' for ExtendDocument:Class
+ExtendDocument.new.class_method_x
+# => NoMethodError: undefined method `class_method_x' for #<ExtendDocument:0x007fe9e308ac08>
+IncludeDocument.class_method_x
+# => NoMethodError: undefined method `class_method_x' for IncludeDocument:Class
+IncludeDocument.new.class_method_x
+# => NoMethodError: undefined method `class_method_x' for #<IncludeDocument:0x007fe9e3056480>
+```
+Instance method inside module become class method when `extend`:
+```
+ExtendDocument.instance_method_y
+# => "instance_method_y"
+ExtendDocument.new.instance_method_y
+# => NoMethodError: undefined method `instance_method_y' for #<ExtendDocument:0x007fe9e3080370>
+```
+Instance method inside module become instance method when `include`:
+```
+IncludeDocument.instance_method_y
+# => NoMethodError: undefined method `instance_method_y' for IncludeDocument:Class
+IncludeDocument.new.instance_method_y
+# => "instance_method_y"
+```
 
 ## What's difference between blocks, procs and lambdas?
 Block, Proc & Lambda are the three different ways of grouping the code.
@@ -175,3 +244,4 @@ If Ruby cannot find the method, it will internally send another method aptly cal
 * [Ruby on Rails developer interview questions](https://www.gitbook.com/book/unayung/ruby-on-rails-developer-interview-questions/details)
 * [Top 53 Ruby on Rails Interview Questions & Answers](https://career.guru99.com/top-34-ruby-on-rail-interview-questions/)
 * [10 Ruby interview questions and answers](https://www.upwork.com/i/interview-questions/ruby/)
+* [Include vs Extend in Ruby](https://devblast.com/b/include-vs-extend-ruby)
