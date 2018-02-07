@@ -64,7 +64,7 @@ iex> a[:foo]
 ```
 
 ## Map is hash
-A difference here is Map start percentage.
+A difference here is that Map start with percentage mark. And keep in mind that order doesn't matter here. Keys can be String or Atom.
 ```ex
 iex> map = %{foo: "bar", aaa: "bbb", "sting":  12}
 %{foo: "bar", aaa: "bbb", string: 12}
