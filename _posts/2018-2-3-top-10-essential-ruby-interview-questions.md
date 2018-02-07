@@ -174,3 +174,4 @@ If Ruby cannot find the method, it will internally send another method aptly cal
 * [What's the difference between a string and a symbol in Ruby?](https://stackoverflow.com/a/255099/4426280)
 * [Ruby on Rails developer interview questions](https://www.gitbook.com/book/unayung/ruby-on-rails-developer-interview-questions/details)
 * [Top 53 Ruby on Rails Interview Questions & Answers](https://career.guru99.com/top-34-ruby-on-rail-interview-questions/)
+* [10 Ruby interview questions and answers](https://www.upwork.com/i/interview-questions/ruby/)
