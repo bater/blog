@@ -37,11 +37,11 @@ extension| can not extend| can extend instance by using extend command
 
 ## Name the three levels of access control for Ruby methods
 In Ruby, methods may either be public, protected, or private.
-* Public methods can be called by anyone.
-* Protected methods are only accessible within their defining class and its subclasses.
-* Private methods can only be accessed and viewed within their defining class.
+* Public methods can be called by anyone in anywhere.
+* Private methods **cannot** be called with an explicit receiver.
+* Protected methods can be called with an explicit receiver, but only when the explicit receiver equals `self`.
 
-But you can use `:send` to call private method outside of class:
+Example for Private Method:
 ```rb
 class MyClass
   private
@@ -50,9 +50,69 @@ class MyClass
   end
 end
 ```
+
+```rb
+class A < MyClass
+  def method_a
+    some_class
+  end
+
+  def method_b
+    self.some_class
+  end
+end
+
+A.new.mehtod_a
+# => "foo"
+A.new.method_b
+# => NoMethodError
 ```
-> MyClass.new.some_class
-=> MethodNotFound Error
+Example for Protected Method:
+```rb
+class MyClass
+  protected
+  def some_class
+    p "foo"
+  end
+end
+```
+
+```rb
+class A < MyClass
+  def method_a
+    some_class
+  end
+
+  def method_b
+    self.some_class
+  end
+end
+
+class B < MyClass
+  def method_c
+    A.new.some_class
+  end
+end
+
+class C
+  def method_d
+    A.new.some_class
+  end
+end
+
+A.new.mehtod_a
+# => "foo"
+A.new.method_b
+# => "foo"
+B.new.method_c
+# => "foo"
+C.new.method_d
+# => NoMethodError
+```
+Protected methods works fine when inherit from `MyClass`.
+
+But you can use `:send` to call private method outside of class:
+```
 > MyClass.new.send(:some_class)
 "foo"
 ```
@@ -245,3 +305,5 @@ If Ruby cannot find the method, it will internally send another method aptly cal
 * [Top 53 Ruby on Rails Interview Questions & Answers](https://career.guru99.com/top-34-ruby-on-rail-interview-questions/)
 * [10 Ruby interview questions and answers](https://www.upwork.com/i/interview-questions/ruby/)
 * [Include vs Extend in Ruby](https://devblast.com/b/include-vs-extend-ruby)
+* [Ruby Access Control – Are Private And Protected Methods Only A Guideline?](https://www.skorks.com/2010/04/ruby-access-control-are-private-and-protected-methods-only-a-guideline/)
+* [Public, Protected and Private Method in Ruby](https://kaochenlong.com/2011/07/26/public-protected-and-private-method-in-ruby/)
