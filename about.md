@@ -12,4 +12,4 @@ For me, I tried to write in many different place with different framework, such 
 
 Btw, it's my first english blog, so if you find any mistake in my blog, please kindly let me know.
 
-Here is my [resume](http://resume.bater.cf) and [linkedin](https://www.linkedin.com/in/baterchen/).
+Here is my [resume](http://bater.github.io/) and [linkedin](https://www.linkedin.com/in/baterchen/).
