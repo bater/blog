@@ -1,6 +1,6 @@
 ---
 layout: default
-title: tags
+title: Tags
 permalink: /tags/
 ---
 <div class="tags-expo">
