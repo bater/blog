@@ -2,7 +2,7 @@
 layout: post
 title: Top 10 Essential Ruby Interview Questions
 date: 2018-2-3 00:00:00 +1100
-categories: ruby
+tags: ruby
 comments: true
 ---
 I look through all of ruby on rails interview questions on the internet, and find the top 10 most common questions with answers. If now you only have 30 minutes before your interview, this is just for you, good luck!

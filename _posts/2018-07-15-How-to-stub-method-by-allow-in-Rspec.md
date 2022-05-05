@@ -2,7 +2,7 @@
 layout: post
 title: How to stub method by Allow in Rspec
 date: 2018-7-15 00:00:00 +0900
-categories: ruby rspec
+tags: [ruby, rspec]
 comments: true
 ---
 Last Friday I solved a bug relate as title. Someone mistakenly use "let" as method stub, and the method should return a value base on current month. So last month the spec runs perfectly because current month are just what we expect, but after one month it failed.

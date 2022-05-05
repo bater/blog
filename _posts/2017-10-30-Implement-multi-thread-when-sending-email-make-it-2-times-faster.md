@@ -2,7 +2,7 @@
 layout: post
 title:  Implement multi-thread when sending email make it 2 times faster
 date:   2017-10-30 00:10:00 +1100
-categories: ruby
+tags: ruby
 comments: true
 ---
 It's common situation to send massive email at once, so the efficiency is the main issue. I found out that multi-thread is a good idea to improve email efficiency.

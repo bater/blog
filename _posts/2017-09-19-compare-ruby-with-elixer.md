@@ -2,7 +2,7 @@
 layout: post
 title:  Compare Ruby with Elixir
 date:   2017-09-19 00:00:00 +1100
-categories: elixir
+tags: elixir
 comments: true
 ---
 Elixir is much similar to Ruby, so I try to list some difference between this two.

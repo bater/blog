@@ -2,7 +2,7 @@
 layout: post
 title:  To see is not always to believe. Weird empty string 65279
 date:   2017-09-26 00:00:00 +1100
-categories: ruby
+tags: ruby
 comments: true
 ---
 One day I got a situation like this:

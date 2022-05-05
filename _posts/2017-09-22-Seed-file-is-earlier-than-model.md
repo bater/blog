@@ -2,7 +2,7 @@
 layout: post
 title:  Seed file is earlier than model
 date:   2017-09-22 00:00:00 +1100
-categories: ruby
+tags: ruby
 comments: true
 ---
 I wrote some default data in seed file and have a task called `rebuild`

@@ -2,7 +2,7 @@
 layout: post
 title:  Ruby Iterator and which one is faster
 date:   2017-11-27 00:10:00 +1100
-categories: ruby
+tags: ruby
 comments: true
 ---
 Sometimes I notice that in somewhere, loop wrote like this just like what we do in Javascript or another language:

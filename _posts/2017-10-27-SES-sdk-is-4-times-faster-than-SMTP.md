@@ -2,7 +2,7 @@
 layout: post
 title: Aws SES sdk is 4 times faster than SMTP endpoint for sending email
 date: 2017-10-27 00:10:00 +1100
-categories: ruby
+tags: ruby
 comments: true
 ---
 [Smtp](https://www.sitepoint.com/deliver-the-mail-with-amazon-ses-and-rails/) is probably most common way to send the email in ruby on rails project, but in some case it's not good enough for us.
