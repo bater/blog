@@ -2,12 +2,12 @@
 layout: post
 title: Tidy First - The Art of Small-Scale Code Refactoring
 date: 2025-05-25 19:20:00 +0800
-tags: [TinyFirst, Refactoring, TDD, Clean Code]
+tags: [Tidy First, Refactoring, TDD, Clean Code]
 comments: true
 ---
-# Tidy First: The Art of Small-Scale Code Refactoring
+# Small Tweaks, Big Wins: Simplifying Code with Tidy First
 
-## Introduction
+## Prolog
 Imagine diving into a codebase that's tangled like a ball of yarn after a cat's playtime. Frustrating, right? Enter **Tidy First**, a philosophy championed by Kent Beck that encourages developers to make small, deliberate improvements to code structure *before* tackling behavioral changes. This isn't about grand refactoring projects like splitting a monolith into microservices. Instead, it's about **teensy weensy cute fuzzy little refactorings**—small, manageable tweaks that pave the way for smoother changes.
 
 The core mantra? **"Make the change easy, then make the easy change."** By focusing on small structural improvements, you reduce friction and set the stage for effortless updates. Let's explore how this approach can transform your coding experience.
