@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Tidy First: The Art of Small-Scale Code Refactoring
+title: Tidy First - The Art of Small-Scale Code Refactoring
 date: 2025-05-25 19:20:00 +0800
-tags: [Clean Code]
+tags: [TinyFirst, Refactoring, TDD, Clean Code]
 comments: true
 ---
 # Tidy First: The Art of Small-Scale Code Refactoring
