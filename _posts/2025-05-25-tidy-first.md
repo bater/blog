@@ -5,6 +5,7 @@ date: 2025-05-25 19:20:00 +0800
 tags: [Tidy First, Refactoring, TDD, Clean Code]
 comments: true
 ---
+
 # Small Tweaks, Big Wins: Simplifying Code with Tidy First
 
 ## Prolog
