@@ -1,12 +1,10 @@
 ---
 layout: post
 title: What Does It Mean to Be a Developer in the Age of AI?
-date: 2025-05-28 22:00:00 +0800
+date: 2025-05-28 19:00:00 +0800
 tags: [AI, Developer Identity, Technology Evolution, Problem Solving, Product Design]
 comments: true
 ---
-
-# What Does It Mean to Be a Developer in the Age of AI?
 
 As a developer who has recently managed to publish a blog post nearly every day, I should feel accomplished. Yet, a quiet sense of guilt lingers. With AI tools streamlining my work—writing blog drafts, generating 90% of my code through tools like Copilot or Cursor—the process feels almost *too* effortless. The deliberate rhythm of crafting each sentence or line of code by hand now seems like a distant memory. This ease prompts a deeper question: If AI does the heavy lifting, can I still call myself a developer?
 
