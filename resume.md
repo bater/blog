@@ -25,6 +25,7 @@ Results-driven Senior Full-Stack Engineer with 12+ years of experience deliverin
 ## 🛠️ Skills
 
 - **Backend:** C#/.NET, Python, Ruby, ASP.NET, Rails
+- **Fronted:** Vue.js, Angular.js
 - **DevOps & Infrastructure:** CI/CD, AWS (Lambda, EC2, Route 53), Git, Monitoring
 - **Database & API:** SQL, REST APIs, OAuth 1/2
 - **Quality & Process:** Unit Testing, ISO 27001, Agile, STRIDE Threat Modeling
