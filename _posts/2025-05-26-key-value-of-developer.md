@@ -2,7 +2,7 @@
 layout: post
 title: What Is the True Value of a Developer in the Age of AI?
 date: 2025-05-26 21:00:00 +0800
-tags: [AI, Developer Skills, Team Culture, Leadership]
+tags: [AI, Career, Team Culture, Leadership, Developer Experience]
 comments: true
 ---
 

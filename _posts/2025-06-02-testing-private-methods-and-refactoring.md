@@ -2,7 +2,7 @@
 layout: post
 title: "Mastering Private Methods and Refactoring: A Practical Guide"
 date: 2025-06-02 19:00:00 +0800
-tags: [Architecture, Testing, Clean Code, Refactoring, TDD]
+tags: [Testing, Refactoring, Clean Code, TDD, Software Design]
 permalink: /mastering-private-methods-and-refactoring/
 comments: true
 ---

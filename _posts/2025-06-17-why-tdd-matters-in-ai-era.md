@@ -2,7 +2,7 @@
 layout: post
 title: "Testing in the Age of AI: Why TDD Still Matters"
 date: 2025-06-17 22:00:00 +0800
-tags: [AI, TDD, Software Engineering, Testing, Productivity, DevEx]
+tags: [AI, TDD, Testing, Software Engineering, Developer Experience]
 comments: true
 ---
 

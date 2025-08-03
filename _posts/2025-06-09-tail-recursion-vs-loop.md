@@ -2,7 +2,7 @@
 layout: post
 title: "Tail Recursion vs Loop: What I Learned from SICP and Why It Matters"
 date: 2025-06-09 20:00:00 +0800
-tags: [recursion, iteration, tail call optimization, SICP, functional programming]
+tags: [Recursion, Iteration, TCO, SICP, Functional Programming]
 comments: true
 ---
 

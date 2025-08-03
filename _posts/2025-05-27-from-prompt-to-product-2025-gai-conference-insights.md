@@ -2,7 +2,7 @@
 layout: post
 title: From Prompt to Product - Key Takeaways from the 2025 GAI Conference
 date: 2025-05-27 21:09:00 +0800
-tags: [AI, AI Adoption, Tech Innovation]
+tags: [AI, AI Adoption, Tech Innovation, Product Management]
 comments: true
 ---
 

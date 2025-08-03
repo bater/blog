@@ -2,7 +2,7 @@
 layout: post
 title: What Does It Mean to Be a Developer in the Age of AI?
 date: 2025-05-28 19:00:00 +0800
-tags: [AI, Developer Identity, Technology Evolution, Problem Solving, Product Design]
+tags: [AI, Developer Experience, Career, Product Design, Technology Evolution]
 comments: true
 ---
 

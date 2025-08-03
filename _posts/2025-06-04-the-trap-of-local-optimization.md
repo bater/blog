@@ -2,7 +2,7 @@
 layout: post
 title: "The Trap of Local Optimization: Why Perspective Is Your Superpower as a Staff Engineer"
 date: 2025-06-04 22:00:00 +0800
-tags: ["engineering leadership", "staff engineer", "career", "technical decision making", "systems thinking"]
+tags: [Engineering Leadership, Staff Engineer, Career, Systems Thinking, Decision Making]
 summary: "For Staff Engineers, technical mastery is just the beginning. What truly sets you apart is your ability to make decisions with broad organizational impact. Here's a personal story—and the leadership lesson behind it."
 permalink: /the-trap-of-local-optimization/
 comments: true

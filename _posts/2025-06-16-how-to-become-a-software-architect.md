@@ -2,7 +2,7 @@
 layout: post
 title: "How to Become a Software Architect: Beyond Code and Diagrams"
 date: 2025-06-16 20:00:00 +0800
-tags: ["software architecture", "career", "engineering leadership", "clean code"]
+tags: [Software Architecture, Career, Engineering Leadership, Clean Code]
 permalink: /posts/how-to-become-a-software-architect/
 comments: true
 ---
