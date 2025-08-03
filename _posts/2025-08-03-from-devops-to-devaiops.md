@@ -3,6 +3,7 @@ layout: post
 title: "Beyond DevOps: Why We Need DevAiOps in the Age of AI-Native Development"
 date: 2025-08-03
 tags: [DevOps, AI, LLM, RAG, AI-Native, Engineering Leadership]
+comments: true
 ---
 
 # Beyond DevOps: Why We Need DevAiOps in the Age of AI-Native Development
