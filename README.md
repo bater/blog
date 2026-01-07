@@ -1,25 +1,65 @@
-# Bater Place Blog
+# Bater Place - Docusaurus Blog
 
-Blog about software technology, refactoring, developer experience, and other development topics. Migrated from Jekyll to [Docusaurus](https://docusaurus.io/).
+This is the migrated version of Bater's blog from Jekyll to Docusaurus.
 
-Another [blog](http://ithelp.ithome.com.tw/users/20103651/articles), but it's all in mandarin.
+## Getting Started
 
-## Development
+### Installation
 
-To run this blog locally:
+First, resolve the npm cache permission issues if needed:
 
 ```bash
-cd docusaurus-blog
+# Fix npm permissions (run with user permissions, not sudo)
+sudo chown -R $(whoami) ~/.npm
+
+# Install dependencies
 npm install
+```
+
+### Local Development
+
+```bash
 npm start
 ```
 
-## Deployment
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-To deploy to GitHub Pages:
+### Build
 
 ```bash
-cd docusaurus-blog
 npm run build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+For GitHub Pages deployment:
+
+```bash
 npm run deploy
 ```
+
+## Migration Notes
+
+- All 17 blog posts have been converted from Jekyll to Docusaurus format
+- Jekyll frontmatter has been converted to Docusaurus blog post format
+- Tags, authors, and dates are preserved
+- About and Resume pages migrated to Docusaurus pages
+- Google Analytics tracking ID preserved
+
+## Configuration
+
+The main configuration is in `docusaurus.config.ts`:
+- Site metadata (title, description, etc.)
+- GitHub Pages deployment settings
+- Blog configuration
+- Navigation and footer
+- Google Analytics integration
+
+## Content Structure
+
+- `blog/` - All migrated blog posts
+- `src/pages/` - Static pages (About, Resume, Tags)
+- `static/` - Static assets (images, favicon, etc.)
+- `src/css/custom.css` - Custom styling
