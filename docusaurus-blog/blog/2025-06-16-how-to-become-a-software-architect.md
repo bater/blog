@@ -11,9 +11,11 @@ tags:
 title: 'How to Become a Software Architect: Beyond Code and Diagrams'
 ---
 
-Becoming a software architect is not merely a career milestone or a promotion—it’s a mindset shift. It’s about evolving from a proficient engineer into a strategic problem solver who bridges the gap between business, people, and technology. A true architect doesn't just draw diagrams—they navigate ambiguity, shape systems, guide teams, and build for the future.
+Becoming a software architect is not merely a career milestone or a promotion—it's a mindset shift. It's about evolving from a proficient engineer into a strategic problem solver who bridges the gap between business, people, and technology. A true architect doesn't just draw diagrams—they navigate ambiguity, shape systems, guide teams, and build for the future.
 
 This article explores the essential qualities and disciplines distilled from real-world experience that define an effective software architect.
+
+<!-- truncate -->
 
 ---
 

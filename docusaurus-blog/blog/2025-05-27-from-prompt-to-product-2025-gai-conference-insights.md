@@ -11,7 +11,9 @@ tags:
 title: From Prompt to Product - Key Takeaways from the 2025 GAI Conference
 ---
 
-The era of marveling at the capabilities of large language models is behind us. At the 2025 Generative AI Conference (GAI Conference & Dev Day), the conversation shifted from “What can AI do?” to critical, practical questions: “How accurate is it?”, “Can it be trusted?”, and “Is it ready for production?” This transition, evident in keynote addresses and enterprise case studies, signals a maturing field where real-world application defines success.
+The era of marveling at the capabilities of large language models is behind us. At the 2025 Generative AI Conference (GAI Conference & Dev Day), the conversation shifted from "What can AI do?" to critical, practical questions: "How accurate is it?", "Can it be trusted?", and "Is it ready for production?" This transition, evident in keynote addresses and enterprise case studies, signals a maturing field where real-world application defines success.
+
+<!-- truncate -->
 
 ## Accuracy as the New Standard
 

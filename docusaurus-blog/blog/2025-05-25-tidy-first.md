@@ -15,6 +15,8 @@ Imagine diving into a codebase that's tangled like a ball of yarn after a cat's 
 
 The core mantra? **"Make the change easy, then make the easy change."** By focusing on small structural improvements, you reduce friction and set the stage for effortless updates. Let's explore how this approach can transform your coding experience.
 
+<!-- truncate -->
+
 ## What is Tidy First?
 Tidy First is about **incremental code cleanup** to make subsequent modifications easier. Unlike large-scale refactoring, these changes are:
 - **Small**: Tiny enough to fit into your daily workflow without derailing schedules.

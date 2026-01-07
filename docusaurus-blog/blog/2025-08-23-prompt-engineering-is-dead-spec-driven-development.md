@@ -23,6 +23,8 @@ title: Prompt Engineering is Dead. Welcome to the Era of Spec-Driven Development
 For the last few years, we've all been on a "Prompt Engineering" bender. We've tried to conjure powerful AI with the perfect magic spell, hoping for a flawless solution to every problem. But now, the hangover is setting in. As developers and architects, we're waking up to the painful side effects:
 
 -   **Vibe-Driven Development:** We use a prompt to quickly generate code, but like compiling and then deleting the source, we discard the most critical asset: the **intent**. This leads to **architectural drift**, where the system slowly deviates from its intended design.
+
+<!-- truncate -->
 -   **A System of Inconsistency:** One-off prompts can't handle complex system requirements. The result is a patchwork of brittle, inconsistent code that fails to guarantee **non-functional requirements (NFRs)** like security, scalability, and observability.
 -   **The Communication Chasm:** When requirements change, we're back to redesigning prompts, wasting countless hours "re-translating" human intent for the AI instead of performing a systematic **impact analysis**.
 

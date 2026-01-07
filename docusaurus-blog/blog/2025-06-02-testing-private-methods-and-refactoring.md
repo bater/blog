@@ -12,7 +12,9 @@ tags:
 title: 'Mastering Private Methods and Refactoring: A Practical Guide'
 ---
 
-In the wild world of software development, we’re constantly juggling *encapsulation* and *testability*. You want clean, hidden implementation details to keep your code modular, but you also need to test critical logic to avoid nasty bugs. Recently, our team tackled a beastly public method—sprawling, complex, and crying out for a refactor. We split it into private helper methods for clarity, but then the question hit: *How do we test these private methods?*
+In the wild world of software development, we're constantly juggling *encapsulation* and *testability*. You want clean, hidden implementation details to keep your code modular, but you also need to test critical logic to avoid nasty bugs. Recently, our team tackled a beastly public method—sprawling, complex, and crying out for a refactor. We split it into private helper methods for clarity, but then the question hit: *How do we test these private methods?*
+
+<!-- truncate -->
 
 This debate is as old as code itself, but it’s still a hot topic. Let’s dive into the pros, cons, and practical strategies for testing private methods and refactoring large functions, with a sprinkle of code to make it real.
 

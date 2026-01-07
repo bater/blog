@@ -13,6 +13,8 @@ title: 'The Trap of Local Optimization: Why Perspective Is Your Superpower as a 
   Engineer'
 ---
 
+<!-- truncate -->
+
 *What if your best technical decision is quietly creating long-term risk for your team or company?*
 
 As engineers transition from **Senior** to **Staff Engineer**, the core challenge shifts. It’s no longer just about delivering quality code—it’s about aligning your decisions with broader, cross-functional outcomes. The key differentiator? **Perspective**.

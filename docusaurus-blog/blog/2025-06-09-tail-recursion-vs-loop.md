@@ -14,6 +14,8 @@ title: 'Tail Recursion vs Loop: What I Learned from SICP and Why It Matters'
 
 Today I dove deep into the concept of **tail recursion** while studying _Structure and Interpretation of Computer Programs (SICP)_, and what started as a curiosity ended up reframing how I think about performance, recursion, and control flow in programming.
 
+<!-- truncate -->
+
 Here’s my technical reflection and summary of what I learned.
 
 ---

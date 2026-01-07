@@ -16,6 +16,8 @@ title: 'Product Managers in the AI Era: Master Git, Markdown, and CLI to Lead De
 
 > In the DevAiOps era where AI agents become the default developers, product managers' value no longer lies solely in "writing specs" but in guiding AI to realize product vision, becoming the orchestrator of human-AI collaboration.
 
+<!-- truncate -->
+
 ---
 
 ## The New Playing Field: From Requirements Definition to AI Orchestration

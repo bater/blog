@@ -13,7 +13,9 @@ tags:
 title: 'Beyond DevOps: Why We Need DevAiOps in the Age of AI-Native Development'
 ---
 
-> Software engineering is undergoing a quiet yet fundamental shift. Are you still trapped in last decade’s development paradigm?
+> Software engineering is undergoing a quiet yet fundamental shift. Are you still trapped in last decade's development paradigm?
+
+<!-- truncate -->
 
 ---
 

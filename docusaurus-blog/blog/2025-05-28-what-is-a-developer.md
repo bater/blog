@@ -14,6 +14,8 @@ title: What Does It Mean to Be a Developer in the Age of AI?
 
 As a developer who has recently managed to publish a blog post nearly every day, I should feel accomplished. Yet, a quiet sense of guilt lingers. With AI tools streamlining my work—writing blog drafts, generating 90% of my code through tools like Copilot or Cursor—the process feels almost *too* effortless. The deliberate rhythm of crafting each sentence or line of code by hand now seems like a distant memory. This ease prompts a deeper question: If AI does the heavy lifting, can I still call myself a developer?
 
+<!-- truncate -->
+
 ## The Ethics of AI-Assisted Creation
 
 This dilemma reminds me of a concept from mountaineering: **oxygen-free climbing**. Elite climbers often forgo supplemental oxygen, not for lack of resources, but to test the limits of human endurance. In a documentary, one climber remarked, “If your only goal is to reach the summit, you could hire a helicopter. But then what’s the point?” Similarly, if AI generates most of my work—whether code or prose—am I truly creating, or merely directing?

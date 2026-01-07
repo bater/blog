@@ -14,6 +14,8 @@ title: 'Testing in the Age of AI: Why TDD Still Matters'
 
 In this AI-driven era, the landscape of software development is transforming with unprecedented speed and flexibility. From code generation to deployment, and from requirement definition to bug fixing, AI tools are reshaping our relationship with code. Yet, amidst this profound transformation, one classic practice is gaining renewed significance: **Test-Driven Development (TDD)**.
 
+<!-- truncate -->
+
 ---
 
 ## A Timeless Practice That Evolves with the Times

@@ -14,6 +14,8 @@ title: What Is the True Value of a Developer in the Age of AI?
 
 In an era where artificial intelligence can produce code with remarkable speed and accuracy, developers are confronted with a pressing question: what is our true value when AI appears to outpace us in technical tasks? As a seasoned developer with a passion for coding, I have reflected deeply on this challenge. The answer lies not in our ability to compete with AI on raw output, but in the uniquely human contributions we bring to the table—empathy, collaboration, and the ability to foster a positive team culture.
 
+<!-- truncate -->
+
 ## Beyond Code: Solving Problems AI Cannot Address
 
 While AI excels at generating code for well-defined problems, it often lacks the nuanced understanding of human needs that developers provide. Our role extends beyond writing software; we translate complex user requirements into meaningful solutions, drawing on creativity and intuition that AI cannot replicate. For instance, consider the challenge of interpreting ambiguous client feedback or aligning a team around a shared vision—these are areas where human insight remains indispensable.
