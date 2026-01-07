@@ -1,8 +1,25 @@
-# blog
-Blog about software technology. Build by [jekyll](https://jekyllrb.com/).
+# Bater Place Blog
 
-Another [bolg](http://ithelp.ithome.com.tw/users/20103651/articles), but it's all in mandarin.
+Blog about software technology, refactoring, developer experience, and other development topics. Migrated from Jekyll to [Docusaurus](https://docusaurus.io/).
 
-To run this blog locally on your local device, first you need to make sure you have Ruby and bundler and then do `bundle install` to install the necessary Ruby gems.
+Another [blog](http://ithelp.ithome.com.tw/users/20103651/articles), but it's all in mandarin.
 
-Then run `bundle exec jekyll serve`, or `bundle exec jekyll serve --livereload` for liveload.
+## Development
+
+To run this blog locally:
+
+```bash
+cd docusaurus-blog
+npm install
+npm start
+```
+
+## Deployment
+
+To deploy to GitHub Pages:
+
+```bash
+cd docusaurus-blog
+npm run build
+npm run deploy
+```
