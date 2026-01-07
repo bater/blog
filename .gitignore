@@ -1,5 +1,29 @@
-_site
-.sass-cache
-.jekyll-metadata
-.jekyll-cache
+# macOS
 .DS_Store
+.DS_Store?
+
+# Docusaurus build output
+docusaurus-blog/build/
+docusaurus-blog/node_modules/
+docusaurus-blog/.docusaurus/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
