@@ -40,10 +40,6 @@ const config: Config = {
           feedOptions: {
             type: ['rss', 'atom'],
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/bater/blog/tree/main/docusaurus-blog/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -63,13 +59,12 @@ const config: Config = {
       title: 'Bater Place',
       logo: {
         alt: 'Bater Place Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {to: '/', label: 'Blog', position: 'left'},
-        {to: '/about', label: 'About', position: 'left'},
-        {to: '/resume', label: 'Resume', position: 'left'},
         {to: '/tags', label: 'Tags', position: 'left'},
+        {to: '/about', label: 'About', position: 'right'},
         {
           href: 'https://github.com/bater',
           label: 'GitHub',
