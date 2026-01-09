@@ -34,7 +34,7 @@ The good news? If you can identify bloater smells in your components, you can ma
 
 ## Types of Bloaters
 
-### [Long Method](./Long-Method)
+### Long Method
 Generally, any method longer than ten lines should be considered suspicious. It may be responsible for more tasks than it should be.
 
 **Key indicators:**
@@ -43,7 +43,7 @@ Generally, any method longer than ten lines should be considered suspicious. It 
 - Complex conditional logic
 - Scrolling required to see the entire method
 
-### [Large Class](./Large-Class)
+### Large Class
 A class that contains too many fields, methods, and lines of code. Based on experience, classes over 500 lines warrant suspicion.
 
 **Key indicators:**
@@ -52,7 +52,7 @@ A class that contains too many fields, methods, and lines of code. Based on expe
 - Low cohesion between methods
 - Difficulty understanding the class's main purpose
 
-### [Primitive Obsession](./Primitive-Obsession)
+### Primitive Obsession
 The excessive use of basic data types (strings, integers, booleans) to represent concepts or entities that should be objects.
 
 **Key indicators:**
@@ -61,7 +61,7 @@ The excessive use of basic data types (strings, integers, booleans) to represent
 - Complex validation logic for primitive values
 - Missing domain-specific behavior
 
-### [Long Parameter List](./Long-Parameter-List)
+### Long Parameter List
 When a function or method has too many parameters, making it difficult to understand and use.
 
 **Key indicators:**
@@ -70,7 +70,7 @@ When a function or method has too many parameters, making it difficult to unders
 - Related parameters that should be grouped
 - Difficulty remembering parameter order
 
-### [Data Clumps](./Data-Clumps)
+### Data Clumps
 Groups of variables that always appear together and should be turned into their own object.
 
 **Key indicators:**

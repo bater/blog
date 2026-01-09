@@ -6,9 +6,6 @@
 # Production
 /build
 
-# Draft and idea
-/smell-to-refactor-resource
-
 # Generated files
 .docusaurus
 .cache-loader
