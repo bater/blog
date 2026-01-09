@@ -1,0 +1,8 @@
+{
+  "label": "Code Smells to Refactorings",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "A comprehensive guide to identifying code smells and applying systematic refactoring techniques to improve code quality, maintainability, and design."
+  }
+}

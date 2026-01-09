@@ -19,7 +19,12 @@ const config: Config = {
   projectName: 'blog', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -33,13 +38,23 @@ const config: Config = {
     [
       'classic',
       {
-        docs: false, // Disable docs since this is a blog
+        docs: {
+          path: 'smells-to-refactoring',
+          routeBasePath: 'smells',
+          sidebarPath: './sidebars.ts',
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/bater/blog/tree/main/',
+        },
         blog: {
           routeBasePath: '/', // Blog at root
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
           },
+          blogSidebarCount: 'ALL', // Show all posts instead of default 5
+          blogSidebarTitle: 'All posts', // Sidebar title
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -62,6 +77,7 @@ const config: Config = {
         src: 'img/logo.png',
       },
       items: [
+        {to: '/smells', label: 'Smells to Refactor', position: 'left'},
         {to: '/', label: 'Blog', position: 'left'},
         {to: '/tags', label: 'Tags', position: 'left'},
         {to: '/about', label: 'About', position: 'right'},
@@ -80,6 +96,15 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
+        {
+          title: 'Topics',
+          items: [
+            {
+              label: 'Code Smells to Refactorings',
+              to: '/smells',
+            },
+          ],
+        },
         {
           title: 'About',
           items: [
