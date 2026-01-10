@@ -28,3 +28,13 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Blog post title styling */
+article h2 {
+  font-size: 32px !important;
+}
+
+/* Remove underline on hover for blog post title links */
+article h2 a:hover {
+  text-decoration: none !important;
+}

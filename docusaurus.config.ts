@@ -3,7 +3,7 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Bater Place',
+  title: 'Better Code',
   tagline: 'A blog about Refactoring, Developer Experience, and other development topics',
   favicon: 'img/favicon.ico',
 
@@ -81,21 +81,21 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Bater Place',
+      title: 'Better Code',
       logo: {
-        alt: 'Bater Place Logo',
+        alt: 'Better Code Logo',
         src: 'img/logo.png',
       },
       items: [
-        { to: '/smells', label: 'Smells to Refactor', position: 'left' },
+        { to: '/smells', label: 'Code Smells', position: 'left' },
         { to: '/blog', label: 'Blog', position: 'left' },
         { to: '/blog/tags', label: 'Tags', position: 'left' },
         { to: '/about', label: 'About', position: 'right' },
-        {
-          href: 'https://github.com/bater',
-          label: 'GitHub',
-          position: 'right',
-        },
+        // {
+        //   href: 'https://github.com/bater',
+        //   label: 'GitHub',
+        //   position: 'right',
+        // },
         {
           href: 'https://www.linkedin.com/in/baterchen',
           label: 'LinkedIn',
@@ -138,6 +138,10 @@ const config: Config = {
             {
               label: 'LinkedIn',
               href: 'https://www.linkedin.com/in/baterchen',
+            },
+            {
+              label: 'Substack',
+              href: 'https://bater.substack.com/profile/posts',
             },
           ],
         },
