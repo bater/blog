@@ -8,6 +8,6 @@ Over the past year, I've taken on a "firefighter" role within the team—switchi
 
 I consider **Sandi Metz** and **Kent Beck** my coding mentors. I'm passionate about **refactoring legacy code** and making messy projects clean and maintainable. I believe great software starts with great developer experience (DevEx), and I strive to build tools and systems that support that philosophy.
 
-Want to know more about [the story behind my logo](/logo)?
+Want to know more about [the story behind my logo](/about/logo)?
 
 Thanks for stopping by!

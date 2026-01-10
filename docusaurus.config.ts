@@ -124,7 +124,7 @@ const config: Config = {
             },
             {
               label: 'Resume',
-              to: '/resume',
+              to: '/about/resume',
             },
           ],
         },
