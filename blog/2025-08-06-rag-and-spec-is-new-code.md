@@ -10,11 +10,9 @@ tags:
 title: 'RAG and Specs: The Twin Engines of AI-Driven Development'
 ---
 
-> To make AI the core productivity driver in development workflows, we need two engines firing simultaneously: **Retrieval-Augmented Generation (RAG)** and **Spec as Code**.
+To make AI the core productivity driver in development workflows, we need two engines firing simultaneously: **Retrieval-Augmented Generation (RAG)** and **Spec as Code**.
 
 <!-- truncate -->
-
----
 
 ## The Reality Check: What AI Coding Tools Reveal About Context
 

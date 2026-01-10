@@ -13,11 +13,9 @@ title: 'DevAiOps Architecture Overview: How Five AI Agents Are Revolutionizing S
   Development'
 ---
 
-> The real software development revolution isn't the power of a single AI model—it's the systematic design of multi-agent collaboration.
+The real software development revolution isn't the power of a single AI model—it's the systematic design of multi-agent collaboration.
 
 <!-- truncate -->
-
----
 
 ## Why DevAiOps Matters Right Now
 

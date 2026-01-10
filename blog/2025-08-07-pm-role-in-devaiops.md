@@ -14,15 +14,13 @@ title: 'Product Managers in the AI Era: Master Git, Markdown, and CLI to Lead De
   Teams'
 ---
 
-> In the DevAiOps era where AI agents become the default developers, product managers' value no longer lies solely in "writing specs" but in guiding AI to realize product vision, becoming the orchestrator of human-AI collaboration.
+In recent discussions about DevAiOps, we've explored how AI is fundamentally reshaping software development workflows. AI is no longer just an auxiliary tool—it's the primary executor. From SpecAgent breaking down requirements to CodeAgent writing code and TestAgent validating quality, AI agents actively participate in every phase of development.
 
 <!-- truncate -->
 
----
-
 ## The New Playing Field: From Requirements Definition to AI Orchestration
 
-In recent discussions about DevAiOps, we've explored how AI is fundamentally reshaping software development workflows. AI is no longer just an auxiliary tool—it's the primary executor. From SpecAgent breaking down requirements to CodeAgent writing code and TestAgent validating quality, AI agents actively participate in every phase of development.
+In the DevAiOps era where AI agents become the default developers, product managers' value no longer lies solely in "writing specs" but in guiding AI to realize product vision, becoming the orchestrator of human-AI collaboration.
 
 This transformation redefines the product manager's role. PMs are no longer just "requirement providers" but are responsible for **ensuring AI understands requirements and implements them correctly**. This means PMs must develop the ability to communicate with, coordinate, and even "command" AI teams.
 

@@ -13,11 +13,9 @@ tags:
 title: 'AI as the Default Developer: How Will We Co-Write Software with Machines?'
 ---
 
-> In the near future, engineers won't be measured by how much code they write—but by how well they design processes that help AI write the right code.
+In the near future, engineers won't be measured by how much code they write—but by how well they design processes that help AI write the right code.
 
 <!-- truncate -->
-
----
 
 ## From Anxiety to Awakening: Two Real Stories
 
