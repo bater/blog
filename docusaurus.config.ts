@@ -55,7 +55,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/bater/bater.github.io/tree/main/',
+            'https://github.com/bater/bater.github.io/tree/master/',
         },
         blog: {
           routeBasePath: 'blog', // Blog at /blog
