@@ -1,10 +1,10 @@
 ---
 sidebar_position: 1
-title: Overview
+title: Dispensables
 slug: /Dispensables
 ---
 
-# Overview
+# Dispensables
 
 "Dispensables" are the things in your code that shouldn't be there. They are the clutter, the excess baggage, the "just in case" logic that never got used. If you removed them, the code would work exactly the same (or better), but it would be cleaner, easier to understand, and faster to modify.
 

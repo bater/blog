@@ -1,10 +1,10 @@
 ---
 sidebar_position: 1
-title: Overview
+title: Change Preventers
 slug: /Change-Preventers
 ---
 
-# Overview
+# Change Preventers
 
 Welcome to the "Change Preventers" category. As the name suggests, these are the code smells that make your software resistant to change.
 

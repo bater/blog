@@ -1,10 +1,10 @@
 ---
 sidebar_position: 1
-title: Overview
+title: Couplers
 slug: /Couplers
 ---
 
-# Overview
+# Couplers
 
 "Couplers" are the code smells that represent excessive coupling between classes. Coupling is a measure of how closely connected two modules are. If they are too tightly coupled, changing one requires changing the other.
 

@@ -1,10 +1,10 @@
 ---
 sidebar_position: 1
-title: Overview
+title: Tool Abusers
 slug: /Tool-Abusers
 ---
 
-# Overview
+# Tool Abusers
 
 Software development offers us many powerful tools: inheritance, switch statements, and temporary fields. But as the saying goes, "If the only tool you have is a hammer, you tend to see every problem as a nail."
 
