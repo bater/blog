@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
@@ -11,20 +11,30 @@ const config: Config = {
   url: 'https://bater.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/blog/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'bater', // Usually your GitHub org/user name.
-  projectName: 'blog', // Usually your repo name.
+  projectName: 'bater.github.io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  
+
   markdown: {
     hooks: {
       onBrokenMarkdownLinks: 'warn',
     },
   },
+
+  headTags: [
+    {
+      tagName: 'script',
+      innerHTML: 'window.gtag = window.gtag || function(){(window.gtag.q = window.gtag.q || []).push(arguments)};',
+      attributes: {
+        type: 'text/javascript',
+      },
+    },
+  ],
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -45,10 +55,10 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/bater/blog/tree/main/',
+            'https://github.com/bater/bater.github.io/tree/main/',
         },
         blog: {
-          routeBasePath: '/', // Blog at root
+          routeBasePath: 'blog', // Blog at /blog
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
@@ -77,10 +87,10 @@ const config: Config = {
         src: 'img/logo.png',
       },
       items: [
-        {to: '/smells', label: 'Smells to Refactor', position: 'left'},
-        {to: '/', label: 'Blog', position: 'left'},
-        {to: '/tags', label: 'Tags', position: 'left'},
-        {to: '/about', label: 'About', position: 'right'},
+        { to: '/smells', label: 'Smells to Refactor', position: 'left' },
+        { to: '/blog', label: 'Blog', position: 'left' },
+        { to: '/blog/tags', label: 'Tags', position: 'left' },
+        { to: '/about', label: 'About', position: 'right' },
         {
           href: 'https://github.com/bater',
           label: 'GitHub',
