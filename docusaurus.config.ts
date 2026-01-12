@@ -84,7 +84,7 @@ const config: Config = {
       title: 'Better Code',
       logo: {
         alt: 'Better Code Logo',
-        src: 'img/logo.png',
+        src: 'img/logo.webp',
       },
       items: [
         { to: '/smells', label: 'Code Smells', position: 'left' },
