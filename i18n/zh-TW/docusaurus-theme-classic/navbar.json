@@ -1,0 +1,30 @@
+{
+  "title": {
+    "message": "Better Code",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Better Code Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Code Smells": {
+    "message": "程式碼異味",
+    "description": "Navbar item with label Code Smells"
+  },
+  "item.label.Blog": {
+    "message": "部落格",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Tags": {
+    "message": "標籤",
+    "description": "Navbar item with label Tags"
+  },
+  "item.label.About": {
+    "message": "關於",
+    "description": "Navbar item with label About"
+  },
+  "item.label.LinkedIn": {
+    "message": "LinkedIn",
+    "description": "Navbar item with label LinkedIn"
+  }
+}

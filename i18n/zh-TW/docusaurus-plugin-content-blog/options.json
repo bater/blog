@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "部落格",
+    "description": "The title for the blog used in feed meta data"
+  },
+  "description": {
+    "message": "關於重構、開發者體驗和其他開發主題的部落格",
+    "description": "The description for the blog used in feed meta data"
+  },
+  "sidebar.title": {
+    "message": "所有文章",
+    "description": "The label for the left sidebar"
+  }
+}

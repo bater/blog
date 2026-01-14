@@ -41,7 +41,19 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'zh-TW'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+      },
+      'zh-TW': {
+        label: '繁體中文',
+        direction: 'ltr',
+        htmlLang: 'zh-TW',
+      },
+    },
   },
 
   presets: [
@@ -91,6 +103,10 @@ const config: Config = {
         { to: '/blog', label: 'Blog', position: 'left' },
         { to: '/blog/tags', label: 'Tags', position: 'left' },
         { to: '/about', label: 'About', position: 'right' },
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        },
         // {
         //   href: 'https://github.com/bater',
         //   label: 'GitHub',

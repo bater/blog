@@ -1,114 +1,144 @@
 ---
 authors:
-- bater
+  - bater
 date: '2025-12-15'
 slug: ai-agent-shift-left
 tags:
-- DevAiOps
-- SpecAgent
-- AIShiftLeft
-- AI Agent
-- Software 3.0
-title: 當 AI 協作左移，軟體開發流程才能真正被重寫
+  - DevAiOps
+  - SpecAgent
+  - AIShiftLeft
+  - AI Agent
+  - Software 3.0
+title: AI Agent Shift Left
 ---
 
-如果 AI 只存在於 IDE 或 CLI 裡，它本質上只是幫助我們把既有流程跑得更快。這種優化當然有價值，但它並沒有觸及流程的核心。真正具結構性影響的改變，應該發生在更前面——在需求還模糊、假設尚未成形的時候，AI 就已經開始參與。
+Why shifting AI collaboration left is the real software revolution.
 
-<!-- truncate -->
+<!--truncate-->
 
-「Shift Left Testing」這個詞，對多數工程師來說並不陌生。  
-它背後的精神其實很簡單：問題越早被發現，修正成本就越低；品質不該等到最後一刻才補救，而是應該在一開始就被納入思考。
+## The Shift Left Principle
 
-進入 AI 成為開發日常的時代後，我愈來愈清楚地感覺到，真正需要左移的，已經不只是測試，而是 **AI 協作本身**。
+"Shift Left Testing" is a familiar idea in software engineering. Its logic is simple and practical: the earlier you detect problems, the cheaper they are to fix. Quality should not be something we inspect at the end.
 
----
+But in an era where AI has become a daily part of development, I believe we are aiming too low.
 
-## 為什麼只在開發階段用 AI，影響其實有限
+What truly needs to shift left today is not testing, and not even development—it is **AI collaboration itself**.
 
-目前談到 AI 開發，多數團隊的焦點仍集中在工程效率：自動產生程式碼、生成測試、修 lint、撰寫 PR 描述。這些能力沒有問題，也確實節省了不少時間，但它們處理的，其實只是整條交付鏈中最末端的一段。
+As long as AI lives only inside IDEs or CLI tools, it remains an accelerator of an existing process. Useful, sometimes impressive, but fundamentally conservative. Real disruption does not happen when we write code faster. It happens when we start questioning decisions earlier—before requirements harden, before assumptions silently turn into constraints.
 
-如果把交付能力攤開來看，它從來不是單一因素決定的，而是多個環節共同作用的結果。需求是否清楚、組織是否能快速對齊，往往比「寫得快不快」更具決定性。一個方向錯誤的需求，即便透過 AI 在短時間內生成大量程式碼，最終也只是用更華麗的方式浪費 Token 與人力。
+## Speed Is Never a Single Variable
 
-用一個簡化的公式來看，這件事會更清楚：
+Most discussions around AI-assisted development focus on productivity at the implementation layer: generating code, writing tests, fixing lint issues, preparing pull requests. These tools work. They save time. But they operate at the very end of the delivery chain.
 
-> **交付速度 ≈ 需求清晰度 × 對齊速度 × 開發速度**
+Delivery capability has never been determined by coding speed alone. It is the product of multiple factors, and they multiply—they do not add up.
 
-AI IDE 或 AI CLI，主要影響的其實只有最後一項。這也解釋了為什麼，當 AI 只被放在開發階段時，它對整體交付能力的改善往往有明顯天花板。
+A simplified model makes this painfully clear:
 
----
+```text
+Delivery speed ≈ requirement clarity × alignment speed × implementation speed
+```
 
-## 從 Shift Left Testing 到 AI Agent Shift Left
+AI IDEs and CLI tools mostly improve the last term. When the first two are weak, the overall result barely moves.
 
-Shift Left Testing 能夠改變工程文化，原因並不複雜：它承認品質不是事後檢查的結果，而是設計階段就該被納入考量的事情。
+This is why teams can adopt AI aggressively and still feel slow. They are accelerating execution while leaving ambiguity untouched. When requirements are wrong or poorly framed, AI does not save time—it helps you waste it faster, with more confidence and better syntax.
 
-AI Agent Shift Left 做的，其實是同一件事，只是把焦點從「程式錯誤」往前推，推到「問題定義本身」。
+## From Shift Left Testing to AI Agent Shift Left
 
-如果 AI 到了開發階段才登場，它只能幫助你更快地實作既定需求；但當需求本身就存在偏差時，AI 的加速效果，只會讓這個偏差被更早、也更大幅度地放大。
+Shift Left Testing changed engineering culture because it acknowledged an uncomfortable truth: quality is not something you add later. It emerges from early thinking and design decisions.
 
-真正值得被挑戰的問題其實是：  
-我們是不是太晚才開始確認，這是不是一個「值得被解的問題」？
+**AI Agent Shift Left** applies the same logic, but to a broader and more dangerous problem—problem definition itself.
 
----
+If AI enters only after requirements are "final," it can only optimize execution. But if those requirements encode flawed assumptions, AI becomes a force multiplier for mistakes. Faster delivery simply means faster divergence from real value.
 
-## 讓 AI 從需求形成的那一刻開始工作
+The question we should be asking is not:
 
-當 BD、PM 或 PO 與市場、客戶完成初步對話時，需求往往還停留在語意模糊的狀態。這個階段最容易被忽略的，往往不是文件格式或欄位完整度，而是那些沒有被說出口的隱性假設。
+> "How can AI help us build this faster?"
 
-在這裡，AI 的角色並不是快速產出一份看起來很完整的 PRD，而是扮演一個經驗老到、願意不斷追問的提問者。它會反覆確認目標是否清楚、使用情境是否具體、成功是否可被衡量，也會主動提醒哪些邊界尚未被定義，哪些風險被低估。
+But rather:
 
-這樣的來回，其實是在把直覺與模糊共識，逐步轉化為可以被討論、被驗證的假設。需求也因此不再只是某個人的理解，而成為整個團隊可以共同檢視與修正的對象。
+> "Why are we so late in validating whether this is worth building at all?"
 
-這裡必須特別補充一點：什麼才算是在「需求階段使用 AI」。  
-不少 PM 可能會認為，只要透過 ChatGPT 或 Gemini 的 Web UI 生成一份結構完整、篇幅驚人的 PRD，就已經是在導入 AI。但如果這個 Agent 沒有以既有文件、規格，甚至實際程式碼作為參考基準（無論是透過 RAG 或 MCP），這樣產出的文件，往往只是形式精美的花拳繡腿。
+## Letting AI Work While the Problem Is Still Unclear
 
-它不僅難以幫助開發者理解真正的核心問題，還可能與企業實際的產品 Domain Know-how 完全脫節，錯誤率與幻覺風險都極高，反而成為後續協作的干擾源。
+When PMs, BDs, or POs return from customer conversations, requirements are rarely wrong—they are vague. They exist in natural language, full of implicit assumptions and missing boundaries.
 
----
+This is precisely where AI should enter the process.
 
-## 當需求語言成為組織資產
+Not as a PRD generator producing impressive but hollow documents, but as a **relentless reasoning partner**. One that keeps asking:
 
-隨著組織規模擴大，真正拖慢交付速度的，往往不再是工程能力，而是共識成本。不同團隊、不同地區、不同角色，各自用略有差異的語言理解需求，最後只能透過會議與經驗來勉強彌補落差。
+- What exactly are we optimizing for?
+- Which user behavior are we assuming?
+- What would failure look like?
+- What constraints are implied but never stated?
 
-當 AI Agent 左移到需求階段，它可以承擔一個關鍵角色：維持需求語言的一致性。它協助整理決策脈絡、追蹤規格演進、保存假設的變化，讓需求不再依賴個人記憶，而是逐漸累積為可查詢、可修正的組織知識。
+This back-and-forth converts intuition into hypotheses that can be examined. Requirements stop being personal interpretations and become shared artifacts the entire team can reason about.
 
-當需求不再是一種手藝，而是一套系統，協作成本自然會下降。
+### The PRD Trap
 
-要做到這一點，PM Agent 至少需要具備基本的記憶能力，能依循明確的 Prompt 規範運作，並且能夠透過 MCP 等方式，調用過去的文件與需求脈絡。否則，所謂的「AI 協作」仍然只是一次性的生成，而非真正的流程能力。
+A clarification is necessary here. Many teams believe they are "using AI in the requirement phase" because they generate long PRDs via ChatGPT or Gemini. In practice, this often makes things worse.
 
----
+When an agent lacks grounding—in existing specifications, domain constraints, architectural decisions, or actual code—it produces documents that look sophisticated while drifting away from reality. Without RAG, MCP, or any form of concrete reference, such PRDs tend to amplify hallucination rather than reduce uncertainty. They add noise where precision is needed most.
 
-## 回到工程現場，重新理解程式碼品質
+## When Requirement Language Becomes an Organizational Asset
 
-當需求品質被拉高之後，工程端的價值才真正被釋放。這也迫使我們重新檢視一個老問題：程式碼品質究竟扮演什麼角色。
+As organizations scale, delivery slows down for reasons unrelated to engineering skill. The real bottleneck becomes **alignment**. Different teams, regions, and roles interpret the same requirement through slightly different lenses, and coordination costs explode.
 
-程式碼品質並不會直接為使用者創造價值，它的意義在於支撐變化。當需求需要被快速修正、方向需要頻繁調整時，良好的結構與測試，能讓團隊在前進時不必時時踩煞車。
+Left-shifted AI agents can absorb part of this burden. They preserve decision context, track how assumptions evolve, and maintain a consistent language across iterations. Requirements stop living in people's heads and start behaving like systems: queryable, revisable, and inspectable.
 
-在 AI 可以高速產碼的時代，這一點反而更加關鍵。生成速度越快，品質的不確定性就越高；缺乏測試、重構與清楚結構的系統，很快就會失去控制。
+This only works if the agent itself meets a minimum bar. A serious PM agent needs:
 
----
+- Memory
+- Structured prompting discipline
+- Access to historical artifacts through tools like MCP
 
-## 為什麼在 AI 時代，敏捷反而更重要
+Without these, it is just another text generator.
 
-Martin Fowler 近期多次提醒，速度本身並不能保證方向正確。當 AI 大幅降低實作成本後，敏捷的核心價值反而被放大：小切片、快速回饋，以及持續保留人類判斷。
+When requirements stop being craftsmanship and start being infrastructure, collaboration becomes cheaper by design.
 
-他對 AI 的定位很清楚：能力很強，但不可靠。這意味著，人類不會被取代，而是必須把重心移到更高層次的審查、判斷與修正。
+## Code Quality Revisited: Not a Virtue, but a Load-Bearing Structure
 
-這個觀點，也呼應了 Will 保哥在 WebConf 2025 上的直言不諱：「不要再繼續手寫程式碼了，而是讓 Agents 寫出更高品質的程式碼。」工程師的角色，正在從軟體手工業，走向真正的軟體工業時代——透過流水線打造高效率的程式碼生產機制，並專注於監督品質與方向。
+Improved requirements are not the end of the story. They are the condition that allows engineering value to emerge.
 
----
+Code quality does not create user value directly. Its purpose is to **support change**. When direction shifts, when assumptions are corrected, when feedback forces reconsideration, good structure allows teams to move without fear.
 
-## 一個從需求開始的無限循環
+This matters more, not less, in an AI-driven world.
 
-如果把整個流程拉遠來看，它更像是一個持續旋轉的循環，而不是一條線性的交付管線。需求從市場訊號出現，經過 AI 協作被釐清，進入開發與交付，再透過使用數據與回饋回流，修正原本的假設。
+The faster code is produced, the higher the uncertainty it carries. Systems without tests, refactoring discipline, or structural clarity do not merely decay—they collapse under their own acceleration. AI increases throughput; code quality determines whether that throughput compounds or implodes.
 
-在這個循環中，程式碼品質連接了速度與價值，而 AI Agent 則在最左側就開始降低不確定性。這正是「AI Agent Shift Left」真正改變流程的地方。
+## Why Agile Matters More in the AI Era
 
----
+Martin Fowler has repeatedly warned that speed does not guarantee correctness. As AI dramatically lowers the cost of execution, the core values of agility become more critical: small bets, fast feedback, and deliberate human judgment.
 
-## 結語：左移的從來不是工具，而是思考方式
+AI is powerful, but it is not reliable. That distinction defines the future role of engineers. Humans are not removed from the loop; they are pushed upward—toward framing, reviewing, and course correction.
 
-AI 時代真正的差距，很少出現在誰寫碼比較快，而是出現在誰能更早對齊正確的問題。
+As Will 保哥 put it bluntly at WebConf 2025:
 
-當 AI 協作真正左移，它改變的不是某一個工具，而是整個組織面對不確定性的方式。需求被更早質疑，假設被更快驗證，共識被更低成本地建立。
+> "Stop writing code by hand. Let agents produce higher-quality code."
 
-真正值得優化的，從來不是一次能完成多少工作，而是從需求浮現到價值被驗證，這段距離究竟有多短。
+This is not about abandoning responsibility. It is about graduating from **software craftsmanship to software industrialization**—building pipelines that manufacture code efficiently, while humans safeguard direction and integrity.
+
+## A Continuous Loop, Not a Linear Pipeline
+
+Seen from a distance, modern software delivery is no longer a straight line. It is a loop:
+
+1. Market signals generate intent
+2. AI-assisted reasoning clarifies it
+3. Code realizes it
+4. Feedback challenges it
+5. Assumptions are revised, and the cycle begins again
+
+In this loop, code quality connects speed to sustainability. AI agents, when shifted left, reduce uncertainty before it hardens. That is where the real leverage lies.
+
+## Conclusion: What Shifts Left Is Not the Tool, but the Thinking
+
+The real gap in the AI era will not be between teams that write code faster, but between those who **align on the right problems earlier**.
+
+When AI collaboration truly shifts left, it changes how organizations confront uncertainty:
+
+- Assumptions are questioned sooner
+- Consensus forms faster
+- Waste is identified before it scales
+
+The most important optimization is not how much work we can finish, but **how short the distance is between a vague need and validated value**.
+
+That distance—not velocity—is what defines modern software capability.
