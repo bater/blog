@@ -10,25 +10,43 @@ A systematic approach to identifying code smells and applying refactoring techni
 
 ## Overview
 
-This comprehensive guide explores the relationship between code smells and their corresponding refactoring solutions. Originally inspired by Sandi Metz's brilliant tech talk "Get a Whiff of This" at RailsConf 2016, this series provides practical guidance for recognizing and eliminating common code quality issues.
+I wrote this guide while exploring the relationship between code smells and their corresponding refactoring solutions. Originally inspired by Sandi Metz's brilliant tech talk "Get a Whiff of This" at RailsConf 2016, this series provides practical guidance for recognizing and eliminating common code quality issues.
 
 ## What Are Code Smells?
 
-One of the important concepts from Sandi Metz's talk is that code smells are **neutral** - they're not always **bad**, but they provide valuable information. If nothing ever changes, it is probably okay. However, in most cases, new requirements will keep coming, and that is why the company hires developers like us to maintain the project.
+One of the important concepts from Sandi Metz's talk is that code smells are **neutral** - they're not always **bad**, but they provide valuable information. If nothing ever changes, it is probably okay. However, in most cases, new requirements will keep coming and code will need to change - that's exactly why companies hire developers like us to maintain their projects.
 
-Code smells are not bugs - they work just as intended. Refactoring involves rearranging code without altering its behavior. Thus, refactoring a bad smell is not the same as fixing a bug because the behavior is expected to remain the same after refactoring. It is recommended to apply these refactoring techniques when fixing bugs or implementing new features.
+Code smells are **not bugs** - they work just as intended. Refactoring involves rearranging code without altering its behavior. Thus, refactoring a bad smell is not the same as fixing a bug because the behavior is expected to remain the same after refactoring. In practice, it's recommended to apply these refactoring techniques while fixing bugs or implementing new features to maintain code quality.
 
 ### "If It Ain't Broke, Don't Fix It"?
 
-Some people dislike refactoring because it doesn't add any new features or fix bugs, and may introduce additional risks into the stable old code. While maintaining stable behavior is sometimes the top priority, especially in banking or accounting systems, there are also risks if we don't change code.
+Some people dislike refactoring precisely because it doesn't add any new features or fix bugs, and may introduce additional risks into stable old code. Maintaining system stability is often the top priority, especially in government institutions, banks, or insurance accounting systems - where you can often find code fragments older than the developers themselves. But let's face reality: if we continue to resist change, there are also risks.
 
-Unless the project has a very specific expiration date (like marketing event) and will not be used again, it is always better to clean the code, considering the long-term prospects.
+Unless the project has a very specific expiration date (like a marketing campaign) and will not be used again, considering long-term maintenance costs, regular code cleanup is always a better choice.
+
+### Do We Still Need to Care About Smells and Refactoring in the AI Era?
+
+This series was originally written in late 2023. At that time, GitHub Copilot had already appeared, but it was mostly seen as an auxiliary tool - more of a novelty experience than a core part of the development process. By 2026, the situation has completely changed. Anthropic, for example, has publicly stated that over 70% of their code is AI-generated. At this scale, it's no longer possible for humans to perform traditional line-by-line code reviews - quality control must be assisted by another AI agent.
+
+In an environment where Vibe Coding (a development style that relies entirely on AI-generated code, where developers only describe requirements in natural language) is prevalent, some even argue that code itself should be treated as a disposable artifact. What truly needs long-term maintenance are only prompts, specifications, and documentation - implementation details are left entirely to the model's discretion.
+
+And so, a question naturally emerges: when both development and review become increasingly black-boxed, and the human role retreats to final behavior verification, does code quality - or even that craftsman spirit of meticulously refining code details - still have a reason to exist?
+
+Honestly, this question troubled me for a long time, until I encountered an extremely practical constraint.
+
+Even when the entity reading and modifying code shifts from humans to AI, code with fewer smells and clearer structure remains "easier to understand and modify" for AI as well. Conversely, when a project is full of smells and modern IDEs and analysis tools throw out massive warnings, this low-quality noise rapidly consumes precious tokens and can even mislead the model's judgment.
+
+It's precisely for this reason that in 2026 - an era where "AI development capabilities have generally surpassed 90% of humans" - maintaining code quality remains an important and practical engineering choice, not just nostalgia or fastidiousness of old-school craftsmen.
+
+Of course, a caveat must be noted here. If future development models evolve to the point where code itself degrades into something like compiled machine code, humans communicate with AI only through natural language, and AI can generate disposable applications and complete tasks in negligible time - then I agree: under those conditions, discussing code quality itself may indeed lose its meaning, just as we wouldn't examine whether minified .min.js is elegant.
+
+But even if we reach that point, smells won't disappear - they'll just relocate. They'll shift from code to documentation and requirements. Ambiguous, contradictory, and overly coupled specifications and descriptions will still produce low-quality systems and still frustrate end users.
 
 ### Our Code Is Our Working Environment
 
-In Japanese culture, there is a significant emphasis on employees cleaning their own working environment. This practice is not only about maintaining sanitation, but it is also a ceremony to express discipline and appreciation for the working environment.
+In Japanese culture, even when there are dedicated cleaning staff, there is significant emphasis on employees cleaning their own working environment. This practice is not only about maintaining sanitation, but also a ceremony to express discipline and appreciation for the working environment.
 
-As software developers, our codebase is our working environment. Keeping the code tidy and clean is an essential part of our job duties.
+As software developers, our codebase is our digital working environment. Keeping the code tidy and clean is an essential part of our job duties - in a sense, it can be seen as professional ethics and part of the craftsman spirit.
 
 ## Understanding Code Smell Categories
 
@@ -48,7 +66,7 @@ It doesn't need to be that big. Code that has grown too large to handle effectiv
 
 ### [Tool Abusers](./Tool-Abusers/)
 
-These are ideas that are available in object-oriented programming that you can misuse. Incorrect or incomplete application of object-oriented programming principles:
+These are common tools in object-oriented programming, but you can easily misuse them, resulting in incorrect or incomplete application of OOP principles:
 
 - [Switch Statements](./Tool-Abusers/Switch-Statements)
 - [Refused Bequest](./Tool-Abusers/Refused-Bequest)
@@ -78,7 +96,7 @@ A dispensable is something unnecessary that, if removed, would make the code cle
 
 ### [Couplers](./Couplers/)
 
-It binds the objects together, you can't ever reach in and get one out and use it in another context. They come as a bundle, all or nothing. Excessive coupling between classes:
+It binds objects together - you can never reach in and get one out to use in another context. They come as a bundle, all or nothing. Excessive coupling between classes:
 
 - [Feature Envy](./Couplers/Feature-Envy)
 - [Inappropriate Intimacy](./Couplers/Inappropriate-Intimacy)
@@ -100,7 +118,7 @@ Code smells that don't fit neatly into the main categories but are still worth u
 ## Key Principles
 
 - **Make the change easy, then make the easy change**
-- **Code should be written for humans to read**
+- **Code should be written for humans (and AI) to read**
 - **Refactoring preserves behavior while improving design**
 - **Small, incremental improvements are better than large rewrites**
 
