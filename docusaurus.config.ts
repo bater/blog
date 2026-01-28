@@ -164,6 +164,11 @@ const config: Config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Bater Place. Built with Docusaurus.`,
     },
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
+    },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,

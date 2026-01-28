@@ -1,0 +1,89 @@
+.sidebarContainer {
+  transition: width 200ms ease, min-width 200ms ease;
+  position: relative;
+}
+
+.sidebarContainerHidden {
+  width: 40px !important;
+  min-width: 40px !important;
+  flex: 0 0 40px !important;
+  max-width: 40px !important;
+}
+
+.sidebarSticky {
+  position: sticky;
+  top: calc(var(--ifm-navbar-height) + 2rem);
+  max-height: calc(100vh - (var(--ifm-navbar-height) + 2rem));
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar {
+  overflow-y: auto;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+.sidebarItemTitle {
+  font-size: var(--ifm-h3-font-size);
+  font-weight: var(--ifm-font-weight-bold);
+}
+
+.sidebarItemList {
+  font-size: 0.9rem;
+}
+
+.sidebarItem {
+  margin-top: 0.7rem;
+}
+
+.sidebarItemLink {
+  color: var(--ifm-font-color-base);
+  display: block;
+}
+
+.sidebarItemLink:hover {
+  text-decoration: none;
+}
+
+.sidebarItemLinkActive {
+  color: var(--ifm-color-primary) !important;
+}
+
+@media (max-width: 996px) {
+  .sidebarContainer {
+    display: none;
+  }
+}
+
+.yearGroupHeading {
+  margin-top: 1.6rem;
+  margin-bottom: 0.4rem;
+}
+
+.collapseSidebarButton {
+  flex: 0 0 auto;
+  display: block;
+  width: 100%;
+  padding: 0.4rem 0;
+  margin-bottom: 0.5rem;
+  border: 1px solid var(--ifm-toc-border-color);
+  border-radius: 4px;
+  background-color: var(--ifm-background-surface-color);
+  color: var(--ifm-color-secondary-darkest);
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: center;
+  transition: background-color 200ms ease;
+}
+
+.collapseSidebarButton:hover {
+  background-color: var(--ifm-color-emphasis-200);
+}
+
+.collapseSidebarButtonHidden {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  margin: 0 auto 0.5rem;
+}

@@ -6,7 +6,7 @@
 📧 baterme[at]gmail.com
 🔗 [LinkedIn](https://www.linkedin.com/in/baterchen)
 📝 [部落格](https://bater.github.io/blog)
-📝 [程式碼異味到重構](https://smells-to-refactorings.gitbook.io/smells)
+📝 [程式碼氣味到重構](https://smells-to-refactorings.gitbook.io/smells)
 
 ---
 

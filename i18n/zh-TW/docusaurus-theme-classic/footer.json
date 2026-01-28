@@ -12,7 +12,7 @@
     "description": "The title of the footer links column with title=Social in the footer"
   },
   "link.item.label.Code Smells to Refactorings": {
-    "message": "程式碼異味到重構",
+    "message": "程式碼氣味到重構",
     "description": "The label of footer link with label=Code Smells to Refactorings linking to /smells"
   },
   "link.item.label.About Me": {
@@ -36,7 +36,7 @@
     "description": "The label of footer link with label=Substack linking to https://bater.substack.com/profile/posts"
   },
   "copyright": {
-    "message": "Copyright © 2025 Bater Place. Built with Docusaurus.",
+    "message": "Copyright © 2026 Bater Place. Built with Docusaurus.",
     "description": "The footer copyright"
   }
 }

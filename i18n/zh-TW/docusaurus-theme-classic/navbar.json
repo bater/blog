@@ -8,7 +8,7 @@
     "description": "The alt text of navbar logo"
   },
   "item.label.Code Smells": {
-    "message": "程式碼異味",
+    "message": "程式碼氣味",
     "description": "Navbar item with label Code Smells"
   },
   "item.label.Blog": {
